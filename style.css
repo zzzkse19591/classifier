@@ -72,3 +72,9 @@ ol.wrong .t { color: var(--ink); }
 ol.wrong .d { color: var(--dim); }
 
 .fineprint { margin-top: 18px; font-size: 12px; color: var(--dim); text-align: center; }
+
+.model { margin-bottom: 12px; }
+.model select, .model input { width: 100%; font: inherit; font-size: 14px; padding: 9px 10px;
+  border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); }
+.model input { margin-top: 6px; }
+.model p { margin: 6px 0 0; }
